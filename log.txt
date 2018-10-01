@@ -1,0 +1,11 @@
+28.02.2012
+29.02.2012
+18.03.2012 A bug was solved. c.data was not updated in the previous codes, thus the results are wrong when there appears minus labels.
+20.03.2012 Adjust partition array function added. Now we can show the snp data matrix in a sorted order so that the final image looks clean.
+18.04.2012 SNP data are stored in "uint8", also some variable are stored in "unit16" to save memory.
+29.10.2012 drawSnpMat.m is updated, now also accept hierarchical partition as input, the visualization is much better now
+29.10.2012 readFasta.m is added to quickly read fasta files
+05.12.2012 modified for release purpose
+22.03.2013 a bug in drawSnpMat fixed
+09.08.2013 A site with at least two bases of "ACGT" is identified as SNP site. The prior for bases in a site depends on available SNPs, e.g. (0.5, 0.5, 0, 0) is used for a site with two variants "AC".
+16.01.2015 Added the '-v7.3' flag to the save command
